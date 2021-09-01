@@ -34,13 +34,15 @@ const routes: Routes = [
   { path: 'net', component: NetComponent},
   { path: 'policy', component: PolicyComponent},
   { path: 'portfolio-details', component: PortfolioDetailsComponent},
-  { path: 'terms', component: TermsComponent},
+  { path: 'terms', component: TermsComponent}
+];
+/*
+,
   { path: 'blog', component: BlogComponent},
   { path: 'work', component: WorkComponent},
   { path: 'mail', component: MailComponent},
   { path: 'social', component: SocialComponent}
-];
-
+  */
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
