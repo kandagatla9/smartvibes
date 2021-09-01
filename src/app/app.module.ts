@@ -41,13 +41,16 @@ import { SocialComponent } from './social/social.component';
     PortfolioDetailsComponent,
     TermsComponent,
     InnerPageComponent,
-    BlogComponent,
     NavsmallComponent,
-    NavbigComponent,
+    NavbigComponent
+  ],
+  /*
+  ,
     WorkComponent,
     MailComponent,
     SocialComponent
-  ],
+    BlogComponent,
+    */
   imports: [
     BrowserModule,
     AppRoutingModule
